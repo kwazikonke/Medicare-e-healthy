@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="card-deck">
+        <div class="card" style="width:18rem;" *ngFor="let item of items">
+            <img class="card-img-top" [src]="item.avatar" alt="{{item.name}}'s Image">
+            <div class="card-body text-center">
+                <h5 class="card-title">Name:{{item.name}}</h5>
+                <p class="card-text">Id : {{item.id}}</p>
+                <p class="card-text">quantity : {{item.quantity}}</p>
+                <p class="card-text">price : {{item.price}}</p>
+            </div>
+        </div>
+
+    </div>
+</div>
